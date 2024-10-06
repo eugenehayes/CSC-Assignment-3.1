@@ -1,12 +1,12 @@
 <!-- Eugene Hayes, 09/30/2024 -->
  <!-- HTML 5 -->
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html>
     <head>
-        <title>CSC102 Palindrom Checker</title>
+        <title>CSC102 Palindrome Checker</title>
         <link rel="stylesheet" href="main.css">
     </head>
-    <style>
+    <style> 
         h1 {
             font-size: xx-large;
             font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -21,14 +21,28 @@
         input {
             text-align: center;
         }
+        palindromeImage {
+            text-align: center;
+            image-rendering: ;
+        }
+        palindromBob {
+            float: right;
+        }
+        palindromGif {
+            text-align: right;
+        }
+
 
     </style>
     <body>
     
-    <h1>Palindrom Checker</h1>
-    <p>Enter a Palindrom and I will check it, it can be a word or a phrase:</p>
+    <h1>Palindrome Checker</h1>
+    <p>Enter a Palindrome and I will check it, it can be a word or a phrase:</p>
     <p><input type="text" id="userInput" placeholder="Enter here:"></p>
     <p><button onclick="checkPalindrom()">Check It!</button></p>
+    <img id= "palindromImage" src= "palindrom.jpg">
+    <img id= "palindromBob" src= "palindrome-bob.png">
+    <img id= "palindromGif" src= "https://media1.giphy.com/media/xT5LMxa8bRiP3JTUI0/200w.gif?cid=6c09b952sb4atkcnzi5q3pqli3s3ejqykxh658dpk7o7074s&ep=v1_gifs_search&rid=200w.gif&ct=g">
 
     <script src="checkPalindrom.js"></script>
 </body>
